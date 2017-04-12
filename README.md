@@ -1,8 +1,10 @@
 # Black Duck CoPilot Maven/Circle CI Example
 
+[![CircleCI](https://img.shields.io/circleci/project/github/BlackDuckCoPilot/example-maven-circle/master.svg)](https://circleci.com/gh/BlackDuckCoPilot/example-maven-circle)
+
 Shows a working setup for using the Black Duck CoPilot integration to analyze the risk of project dependencies
 
-## Travis CI Setup
+## Circle CI Setup
 
 The `circle.yml` file has been modified to upload the generated data to Black Duck CoPilot:
 
