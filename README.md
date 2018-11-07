@@ -10,5 +10,5 @@ The `circle.yml` file has been modified to upload the generated data to Black Du
 
 ```yaml
     - deploy:
-          command: bash <(curl -s https://copilot-test.blackducksoftware.com/ci/circle2/scripts/upload)
+          command: bash <(curl -s https://copilot.blackducksoftware.com/ci/circle2/scripts/upload)
 ```
