@@ -6,7 +6,6 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ./gradlew assemble
-      - run: ./gradlew check
+      - run: mvn dependency:go-offline
       - deploy:
           command: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/circle2/scripts/upload)
